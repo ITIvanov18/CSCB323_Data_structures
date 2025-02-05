@@ -110,7 +110,6 @@ int main()
             originalArray[j] = rand() % 120000;
         }
 
-        // Временен масив, който е копие на генерирания 
         int* tempArray = new int[size[i]];
 
         // 1. Сортиране чрез selection sort
@@ -131,7 +130,6 @@ int main()
         }
         bubbleSort(tempArray, size[i]);
 
-        // Освобождаване на паметта
         delete[] originalArray;
         delete[] tempArray;
     }
