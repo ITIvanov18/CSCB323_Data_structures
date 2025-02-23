@@ -7,7 +7,6 @@ using namespace std;
 int SIZE = 10;
 int* A = new int[SIZE] {1, 6, 3, 9, 33, 51, 47, 15, 73, 87};
 
-// Функция за отпечатване на подмасив от даден масив
 void printArray(int* arr, int start, int end) {
 	for (int i = start; i <= end; i++) {
 		cout << arr[i] << " ";
