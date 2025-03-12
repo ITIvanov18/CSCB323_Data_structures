@@ -29,7 +29,7 @@ int main() {
         p->letter = bukva;
         p->next = na;
         na = p;
-    } while (isalpha(bukva)); // Повтаряй, докато се въвежда буква
+    } while (isalpha(bukva));
 
     // Премахване на последния въведен символ (който не е буква)
     na = na->next;
